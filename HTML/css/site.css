@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1lcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background: rgba(0, 0, 0, 0.493);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+nav ul li a {
+  color: rgb(255, 103, 2);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 12px;
+}
+nav ul li a:hover {
+  color: rgb(196, 108, 108);
+  text-decoration: none;
+}
+nav ul li a.active {
+  background-color: rgb(100, 128, 33);
+  text-decoration: none;
+}
+
+nav h1 {
+  color: rgb(240, 96, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 80px;
+  color: #e4e4e4;
+  font-family: "Source Sans Pro", sans-serif;
+
+  letter-spacing: 0.09em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section p#description {
+  font-size: 35px;
+  color: #ff0000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  margin: auto;
+  width: 50%;
+  margin-top: 170px;
+}
+.scroll p {
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+
+  text-align: center;
+
+  padding-top: 190px;
+}
+.scroll i {
+  text-align: center;
+  font-size: 40px;
+  color: blueviolet;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
