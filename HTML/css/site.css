@@ -11,10 +11,6 @@ body {
   user-select: none;
 }
 
-body.login {
-  background-color: rgb(10, 218, 55);
-}
-
 nav {
   height: 60px;
   position: fixed;
@@ -24,7 +20,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 3rem 5rem;
-  background: transparent;
+  background: rgba(0, 70, 35, 0.644);
   box-shadow: 0 0.5rem 1rem rgba(22, 22, 22, 0.432);
 }
 

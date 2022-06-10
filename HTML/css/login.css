@@ -9,23 +9,24 @@
 body {
     font-family: "Poppins", sans-serif;
     background: rgba(185, 185, 185, 0.979);
-    height: 100vh;
+    position: fixed;
     width: 100%;
     user-select: none;
+    background-color: rgba(0, 70, 35, 0.644);
+
 }
 
 nav {
+    height: 60px;
     position: relative;
     width: 100%;
     z-index: 1;
-    background-color: rgb(190, 24, 24);
-    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 3.5rem;
-    background: transparent;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.315);
+    padding: 3rem 5rem;
+    background-color: rgba(0, 70, 35, 0.644);
+    box-shadow: 0 0.5rem 1rem rgba(22, 22, 22, 0.432);
 }
 
 nav ul {
@@ -77,63 +78,96 @@ nav h1 {
     border-radius: 10px;
     padding: 20px;
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 7rem;
     margin-bottom: 10rem;
 
 
 }
 
 .header-text {
-    margin-bottom: -40px;
-    text-align: center;
-    margin-top: -390px;
-    right: 40%;
     position: absolute;
-    margin-right: 33px;
+    text-align: center;
+    font-size: 1.5rem;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .header-text p {
-    color: rgb(2, 29, 148);
+    color: rgb(255, 103, 2);
+    font-size: 1.3rem;
 }
 
 .wrapper input {
     width: 100%;
-    border-radius: 5px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
     font-size: 1.1rem;
-    background-color: green;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    margin-bottom: 90px;
-    box-shadow: 2px 2.4px 8px rgba(0, 0, 0, 0.315);
+    font-weight: 700px;
+    background-color: rgba(0, 80, 0, 0.651);
+    margin-bottom: 70px;
+    box-shadow: 2px 2.4px 8px rgba(0, 0, 0, 0.479);
 
 }
 
+.wrapper input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
 button {
+    box-shadow: 2px 2.4px 8px rgba(58, 40, 40, 0.63);
     width: 100px;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 10px;
     margin-bottom: 20px;
     font-size: 16px;
-    outline: none;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    color: rgb(2, 29, 148);
-    background-color: rgb(255, 255, 255);
+    color: rgb(240, 96, 0);
+    font-weight: 560;
+    background: rgba(0, 70, 35, 0.644);
+    transition: 0.5s all;
+    cursor: pointer;
+
 }
 
-.footer-content-login {
-    bottom: -40px;
-    position: relative;
-    margin-top: -40px;
-    text-align: center;
-    color: rgb(2, 29, 148);
+button:active {
+    transform: scale(0.9);
+}
 
+button:hover {
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.781);
+    transition: 0.5 all;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding: 2px;
+
+}
+
+.icons {
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+
+.icons a {
+    color: rgb(8, 83, 18);
 }
