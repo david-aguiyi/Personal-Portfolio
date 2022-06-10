@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgba(185, 185, 185, 0.979);
+    height: 100vh;
+    width: 100%;
+    user-select: none;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(190, 24, 24);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background: transparent;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.315);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.navigation i {
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    color: rgb(255, 103, 2);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 149, 78);
+    text-decoration: none;
+}
+
+nav ul li a:active {
+    transition: ease-out;
+    transition-delay: 0.8s;
+}
+
+nav h1 {
+    color: rgb(240, 96, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 480px;
+    width: 100%;
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+
+}
+
+.header-text {
+    margin-bottom: -40px;
+    text-align: center;
+    margin-top: -390px;
+    right: 40%;
+    position: absolute;
+    margin-right: 33px;
+}
+
+.header-text p {
+    color: rgb(2, 29, 148);
+}
+
+.wrapper input {
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: green;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 90px;
+    box-shadow: 2px 2.4px 8px rgba(0, 0, 0, 0.315);
+
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: rgb(2, 29, 148);
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-content-login {
+    bottom: -40px;
+    position: relative;
+    margin-top: -40px;
+    text-align: center;
+    color: rgb(2, 29, 148);
+
+}
