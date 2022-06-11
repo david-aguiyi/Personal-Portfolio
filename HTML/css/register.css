@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgba(185, 185, 185, 0.979);
+    width: 100%;
+    user-select: none;
+    background-color: rgba(0, 70, 35, 0.644);
+    position: absolute;
+
+}
+
+nav {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+    background-color: rgba(0, 70, 35, 0.644);
+    box-shadow: 0 0.5rem 1rem rgba(22, 22, 22, 0.432);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.navigation i {
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    color: rgb(255, 103, 2);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 149, 78);
+    text-decoration: none;
+}
+
+nav ul li a:active {
+    transition: ease-out;
+    transition-delay: 0.8s;
+}
+
+nav h1 {
+    color: rgb(240, 96, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 480px;
+    width: 100%;
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.header-text {
+    margin: auto;
+    bottom: -150px;
+    position: relative;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header-text p {
+    color: rgb(255, 103, 2);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.wrapper input,
+select {
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 700px;
+    color: antiquewhite;
+    background-color: rgba(0, 80, 0, 0.651);
+    margin-bottom: 70px;
+    box-shadow: 2px 2.4px 8px rgba(0, 0, 0, 0.479);
+
+}
+
+.wrapper input:-webkit-autofill {
+    -webkit-text-fill-color: antiquewhite !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+button {
+    box-shadow: 2px 2.4px 8px rgba(58, 40, 40, 0.63);
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: rgb(240, 96, 0);
+    font-weight: 560;
+    background: rgba(0, 70, 35, 0.644);
+    transition: 0.5s all;
+    cursor: pointer;
+
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button:hover {
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.781);
+    transition: 0.5 all;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.icons {
+    left: 45.4%;
+    top: 93%;
+    transform: translate(-50% -50%);
+    position: absolute;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+
+.icons a {
+    color: rgb(8, 83, 18);
+}

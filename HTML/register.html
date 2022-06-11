@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/register.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <div id="navbars">
+            <nav>
+                <h1>DAVID</h1>
+                <ul class="navigation">
+                    <li>
+                        <a href="site.html" class="nav-link"><i class="fa fa-user" aria-hidden="true"></i>About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-link"><i class="fa fa-fw fa-envelope"
+                                aria-hidden="true"></i>Contact</a>
+                    </li>
+                    <li>
+                        <a href="register.html" class="nav-link"><i class="fa fa-user-plus"
+                                aria-hidden="true"></i>Register</a>
+                    </li>
+                    <li>
+                        <a href="login.html" class="nav-link"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="header-text">
+            <h1>Welcome !</h1>
+            <p>REGISTER HERE</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="wrapper">
+            <form action="./site.html">
+                <label for="firstName">First Name:</label>
+                <input text="text" name="fName" id="fName" required />
+                <label for="lastName">Last Name:</label>
+                <input text="text" name="lName" id="lName" required />
+                <label for="phone">Phone:</label>
+                <input text="text" type="number" name="phone" id="phone" required />
+                <label for="gender">Gender :</label>
+                <select aria-placeholder="Select a gender" name="gender" required id="gender">
+                    <option value="male" id="select" disabled hidden selected>
+                        Select a gender
+                    </option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <label for="country">Country :</label>
+                <input text="text" name="country" id="country" required />
+                <label for="State">State/Province :</label>
+                <input text="text" name="state" id="state" required />
+                <label for="email">Email:</label>
+                <input text="text" name="email" id="email" required />
+                <label for="password">Password:</label>
+                <input text="text" type="password" ame="password" id="password" required />
+                <label for="confirmPassword">Confirm Password:</label>
+                <input text="text" type="password" name="confirmPassword" id="confirmPassword" required />
+
+                <button>Register</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content-login">
+            <div class="icons">
+                <a href="https://github.com/david-aguiyi"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/david-aguiyi-6a360222b/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/DavidAguiyi?s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://web.facebook.com/david.aguiyi.37"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer><!-- End of Footer -->
+</body>
+
+</html>
