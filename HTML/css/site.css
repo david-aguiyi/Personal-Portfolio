@@ -242,12 +242,11 @@ footer {
   bottom: 0;
   width: 100%;
   margin: auto;
-  height: 400px;
-
+  height: 420px;
+https: //skillcrush.com/is-tech-right-for-you/?utm_referrer=https%3A%2F%2Fskillcrush.com%2F
 }
 
 .footer-content {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -288,8 +287,6 @@ button i {
 
 .icons {
   cursor: pointer;
-  outline: none;
-  transition: 0.2s all;
 }
 
 /* Adding transformation when the button is active */
