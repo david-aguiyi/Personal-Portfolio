@@ -93,7 +93,7 @@ section p#description {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110vh;
+  height: 100vh;
 }
 
 .scroll {
@@ -329,7 +329,7 @@ button i {
 /* box-shadow: 0 0.5rem 1rem rgba(22, 22, 22, 0.432);
   }  */
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 700px) {
 
   nav {
     height: 60px;
@@ -356,8 +356,6 @@ button i {
     font-size: 2rem;
     transition: 0.3s all;
   }
-
-
 
   nav h1 {
     font-size: 1rem;
@@ -387,9 +385,92 @@ button i {
     font-weight: bold;
   }
 
-  .section-two-content {
-    padding-top: 100px;
-    width: 100%;
+  .section-two {
+    color: rgb(15, 14, 14);
+    height: 10%;
+    height: 280vh;
+  }
+
+  .section-two p {
+    max-width: 100%;
+    /* margin-right: -200px; */
+    /* text-align: center; */
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+
+  .about {
+    /* height: 10%; */
+    color:
+      black;
+    text-align: center;
+  }
+
+  .section2-text h2 {
+    font-size: 20px;
+  }
+
+  img {
+    width: auto;
+    max-width: 100%;
+    height: 300px;
+    margin-top: 240px;
+    margin-bottom: -200px;
+    margin-right: 50px;
+
+  }
+
+  .list {
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .list h1 {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 70px;
+    width: 140%;
+    padding-left: 40px;
+    margin-bottom: 5px;
+  }
+
+  .list ul {
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .list .hobbies {
+    color: rgb(0, 0, 0);
+    padding-left: 107px;
+    width: 200%;
+  }
+
+  .list .priorityh1 {
+    width: 150%;
+    padding-left: 43px;
+  }
+
+  .quote {
+
+    color: rgb(0, 0, 0);
+    /* padding-left: 40px; */
+    max-width: 80%;
+    width: 50%;
+    margin-left: 55px;
+    /* height: auto; */
+    text-align: center;
+    /* margin: 0; */
+  }
+
+  .line {
+    border: 1px solid black;
+    width: 280px;
     text-align: center;
   }
 }
