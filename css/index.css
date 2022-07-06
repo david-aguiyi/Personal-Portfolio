@@ -334,7 +334,7 @@ button i {
   nav {
     height: 60px;
     position: fixed;
-    width: 42.5%;
+    width: 100%;
     z-index: 1;
     background: rgba(0, 70, 35, 0.644);
     box-shadow: 0 0.5rem 1rem rgba(22, 22, 22, 0.432);
@@ -472,5 +472,79 @@ button i {
     border: 1px solid black;
     width: 280px;
     text-align: center;
+  }
+
+
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0px;
+    /* white-space: nowrap; */
+    margin-top: 50px;
+    line-height: 70px;
+  }
+
+  .footer-content h1 {
+    color: black;
+    font-size: 1.5rem;
+  }
+
+  .footer-content p {
+    color: black;
+    /* font-size: 1.5rem; */
+  }
+
+  button {
+    text-decoration: none;
+    border: none;
+    padding: 12px 40px;
+    font-size: 16px;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.644);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+  }
+
+  /* Adding transformation when the button is active */
+
+  button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+  }
+
+  button i {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  .icons {
+    cursor: pointer;
+  }
+
+  /* Adding transformation when the button is active */
+
+  .icons a:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+  }
+
+
+  .icons a {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.603);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
   }
 }
