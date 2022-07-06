@@ -271,13 +271,10 @@ button {
   transition: 0.2s all;
 }
 
-/* Adding transformation when the button is active */
 
 button:active {
   transform: scale(0.98);
-  /* Scaling button to 0.98 to its original size */
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-  /* Lowering the shadow */
 }
 
 button i {
@@ -289,13 +286,10 @@ button i {
   cursor: pointer;
 }
 
-/* Adding transformation when the button is active */
 
 .icons a:active {
   transform: scale(0.98);
-  /* Scaling button to 0.98 to its original size */
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-  /* Lowering the shadow */
 }
 
 
@@ -313,21 +307,6 @@ button i {
   top: 100px;
 }
 
-
-/* 
-@media screen and (min-width: 320px) {
-  nav {
-    height: 60px;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-/* padding: 3rem 5rem; */
-/* background: rgba(0, 70, 35, 0.644); */
-/* box-shadow: 0 0.5rem 1rem rgba(22, 22, 22, 0.432);
-  }  */
 
 @media screen and (max-width: 700px) {
 
@@ -459,13 +438,10 @@ button i {
   .quote {
 
     color: rgb(0, 0, 0);
-    /* padding-left: 40px; */
     max-width: 80%;
     width: 50%;
     margin-left: 55px;
-    /* height: auto; */
     text-align: center;
-    /* margin: 0; */
   }
 
   .line {
@@ -482,7 +458,6 @@ button i {
     justify-content: center;
     flex-direction: column;
     margin-left: 0px;
-    /* white-space: nowrap; */
     margin-top: 50px;
     line-height: 70px;
   }
@@ -494,7 +469,6 @@ button i {
 
   .footer-content p {
     color: black;
-    /* font-size: 1.5rem; */
   }
 
   button {
@@ -511,14 +485,7 @@ button i {
     transition: 0.2s all;
   }
 
-  /* Adding transformation when the button is active */
 
-  button:active {
-    transform: scale(0.98);
-    /* Scaling button to 0.98 to its original size */
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-    /* Lowering the shadow */
-  }
 
   button i {
     font-size: 20px;
@@ -529,13 +496,9 @@ button i {
     cursor: pointer;
   }
 
-  /* Adding transformation when the button is active */
-
   .icons a:active {
     transform: scale(0.98);
-    /* Scaling button to 0.98 to its original size */
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-    /* Lowering the shadow */
   }
 
 
