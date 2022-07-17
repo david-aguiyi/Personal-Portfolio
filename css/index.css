@@ -89,6 +89,7 @@ section p#description {
 
 .section-one {
   background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1lcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+  /* background-color: black; */
   margin: auto;
   width: 100%;
   background-repeat: no-repeat;
@@ -114,6 +115,8 @@ section p#description {
   text-align: center;
   font-size: 25px;
   color: rgb(255, 103, 2);
+  /* background-color: white;
+  column-rule: white; */
   padding-top: 10px;
   display: flex;
   align-items: center;
@@ -380,7 +383,6 @@ button i {
   }
 
   .about {
-    /* height: 10%; */
     color:
       black;
     text-align: center;
@@ -396,7 +398,7 @@ button i {
     height: 300px;
     margin-top: 240px;
     margin-bottom: -200px;
-    margin-right: 50px;
+    margin-right: 10px;
 
   }
 
